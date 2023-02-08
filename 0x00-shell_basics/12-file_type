@@ -1,5 +1,2 @@
 #!/bin/bash
-file /tmp/iamafile>>12-file_type
-
-
-echo file /tmp/iamafile
+file /tmp/iamafile

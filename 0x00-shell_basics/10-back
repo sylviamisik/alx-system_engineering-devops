@@ -1,2 +1,2 @@
 #!/bin/bash
-current_dir=$(pwd) cd - echo "Changed to $(pwd) from $current_dir"
+cd

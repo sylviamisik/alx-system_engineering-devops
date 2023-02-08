@@ -1,2 +1,2 @@
 #!/bin/bash
-html_files=$(ls *.html)
+cp -u *.html ..

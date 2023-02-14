@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'N-Mn-m''A-Mn-Za-mn-z'
+:map <F2> :%s/\([A-Za-z]\)/\=nr2char((char2nr(tolower(submatch(0))) - 97 + 13) % 26 + (tolower(submatch(0)) == submatch(0) ? 97 : 65))/g<CR>

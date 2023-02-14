@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$((POWER / DIVIDE))" | vi +"put! .= \"\n\"" +q! -
+echo `expr $(echo $POWER) / $(echo $DIVIDE)`
